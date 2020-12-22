@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body,html {
+    height: 158%;
+    margin: 0;
+}
+.backgroundImg {
+   background-image: url("back-1.jpg");
+   filter: blur(5px);
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.main-content {
+    background-color: rgba(0, 0, 0, 0.4);
+   color: white;
+   border: 3px solid #f1f1f1;
+   position: absolute;
+   top: 2%;
+   width: 100%;
+   padding: 20px;
+   text-align: center;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 800;
+    text-decoration: 3px solid white underline;
+}
+.python h2 {
+    color: yellow;
+}
+.javascript h2 {
+    color: #d9f583;
+    text-decoration: 3px solid white underline;
+}
+.java h2 {
+    color: blue;
+    text-decoration: 3px solid red underline;
+}
+p
+{
+    font-family: 'Inconsolata', monospace;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+img{
+     display: block;
+    cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 30%;
+    border-radius: 18px;
+}
+img:hover {
+    opacity: 0.75;
+}
+h1
+{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Nova Flat', cursive;    color: gainsboro;
+    padding-bottom: 20px;
+    text-decoration: 9px solid bluviolet underline;
+    
+}
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40%;
+    position: absolute;
+    top: 273%;
+}
+span
+{
+    cursor: pointer;
+    text-decoration: 2px solid blue _;
+    color: blue;
+}
